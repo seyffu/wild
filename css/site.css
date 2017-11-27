@@ -13,9 +13,9 @@ footer {
 body {
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
   font-size: 14px;
-  /* background-color: darkgreen; */
-  /* Changed the color toi test git and vsts */
-  background-color: #badcaf;
+  background-color: darkgreen;
+  /* Changed the color to test git and vsts */
+  /* background-color: #badcaf;  ---- AND changed it back*/
 }
 
 a {

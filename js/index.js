@@ -111,10 +111,12 @@ $(document).ready(function() {
     $.each(results, function(i, item) {
 
       var newResult = $("<div class='result'>" +
-        "<div class='title'>" + item.name + "</div>" +
+        "<div><br><a href='" + item.html_url + "' target='_blank' class='title'>" + item.name + "</a></div>" +
         "<div>Language: " + item.language + "</div>" +
+        "<div>Description: " + item.description + "</div>" +
         "<div>Owner: " + item.owner.login + "</div>" +
-        "</div>");
+        "<div>Latest commit: " + item.updated_at + "</div>" + 
+        "<hr /></div>");
 
       newResult.hover(function() {
         // make it darker

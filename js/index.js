@@ -106,6 +106,8 @@ $(document).ready(function() {
   //   }
   // }];
 
+// To add more info go to the developer page @  https://developer.github.com/v3/repos/
+
   function displayResults(results) {
     resultList.empty();
     $.each(results, function(i, item) {

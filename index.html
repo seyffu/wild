@@ -1,14 +1,18 @@
-<!--  Built mainly from the Pluralsight Course for new Web Developers, with one or two things of my own,  -->
+<!--
+
+  Built for the Pluralsight Course for new Web Developers
+
+ -->
 <!DOCTYPE html>
 <html>
 
 <head>
+  <meta charset="utf-8">
   <title>Github Hub</title>
   <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>      
     <![endif]-->
-   <link rel="stylesheet" href="css/site.css" />
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/site.css" />
 
 </head>
 
@@ -17,11 +21,11 @@
     <header>
       <nav>
         <ul>
-          <li><a href="/index.html">Home</a>
+          <li><a href="index.html">Home</a>
           </li>
-          <li><a href="/contact.html">Contact</a>
+          <li><a href="contact.html">Contact</a>
           </li>
-          <li><a href="/about.html">About</a>
+          <li><a href="about.html">About</a>
           </li>
         </ul>
       </nav>
@@ -34,7 +38,7 @@
       <p>In this
         <em>sample site</em>, we'll show a list of <a href="http://github.com">Github</a> projects
         <span>and the data </span>about
-        <strong> those projects</strong>.</p>
+        <strong>those projects</strong>.</p>
       <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form" id="gitHubSearchForm">
         <label for="searchPhrase">Search Phrase:</label>
         <input type="text" name="searchPhrase" id="searchPhrase" />
@@ -45,10 +49,9 @@
         <label for="langChoice">Language:</label>
         <select name="langChoice" id="langChoice">
           <option>All</option>
+          <option>JavaScript</option>
           <option selected>C#</option>
           <option>Java</option>
-          <option>JavaScript</option>
-          <option>php</option>
           <option>Ruby</option>
           <option>CSS</option>
         </select>
@@ -60,21 +63,54 @@
         <div id="resultList">This is where results will go</div>
       </div>
     </section>
-<!--     <div>
-      <i class="fa fa-facebook"></i>
-      <i class="fa fa-facebook-official"></i>
-      <i class="fa fa-twitter" style="
-            font-size:32px;
-            color: white;
-            background-color: #2daae1;
-            border-radius: 25px;"></i>
-      <i class="fa fa-car" style="font-size:32px;color:red;"></i>
-      
-    </div> -->
     <footer>
-      &copy; 2014 Shawn Wildermuth LLC
+      &copy; 2014 Shawn Wildermuth LLC <a href="https://wilderminds.com"> https://wilderminds.com</a>
     </footer>
+
+current_user_url  "https://api.github.com/user"<br />
+current_user_authorizations_html_url  "https://github.com/setti…applications{/client_id}"<br />
+authorizations_url  "https://api.github.com/authorizations"<br />
+code_search_url "https://api.github.com/s…age,per_page,sort,order}"<br />
+commit_search_url "https://api.github.com/s…age,per_page,sort,order}"<br />
+emails_url  "https://api.github.com/user/emails"<br />
+emojis_url  "https://api.github.com/emojis"<br />
+events_url  "https://api.github.com/events"<br />
+feeds_url "https://api.github.com/feeds"<br />
+followers_url "https://api.github.com/user/followers"<br />
+following_url "https://api.github.com/user/following{/target}"<br />
+gists_url "https://api.github.com/gists{/gist_id}"<br />
+hub_url "https://api.github.com/hub"<br />
+issue_search_url  "https://api.github.com/s…age,per_page,sort,order}"<br />
+issues_url  "https://api.github.com/issues"<br />
+keys_url  "https://api.github.com/user/keys"<br />
+label_search_url  "https://api.github.com/s…tory_id}{&page,per_page}"<br />
+notifications_url "https://api.github.com/notifications"<br />
+organization_url  "https://api.github.com/orgs/{org}"<br />
+organization_repositories_url "https://api.github.com/o…type,page,per_page,sort}"<br />
+organization_teams_url  "https://api.github.com/orgs/{org}/teams"<br />
+public_gists_url  "https://api.github.com/gists/public"<br />
+rate_limit_url  "https://api.github.com/rate_limit"<br />
+repository_url  "https://api.github.com/repos/{owner}/{repo}"<br />
+repository_search_url "https://api.github.com/s…age,per_page,sort,order}"<br />
+current_user_repositories_url "https://api.github.com/u…type,page,per_page,sort}"<br />
+starred_url "https://api.github.com/user/starred{/owner}{/repo}"<br />
+starred_gists_url "https://api.github.com/gists/starred"<br />
+user_url  "https://api.github.com/users/{user}"<br />
+user_organizations_url  "https://api.github.com/user/orgs"<br />
+user_repositories_url "https://api.github.com/u…type,page,per_page,sort}"<br />
+user_search_url "https://api.github.com/s…age,per_page,sort,order}"<br />
+
+
+
+  <div class="sean">
+      <p>This is a site build from following the tutorial on <a href="https://wilderminds.com/Courses#desc-front-end-web-app-html5-javascript-css">Front-end Web Development Quick Start With HTML5, JavaScript, and CSS</a></p>
+        Shawn Wildermuth<br />
+        Wilder Mindes LLC<br />
+        <a href="https://wilderminds.com"> https://wilderminds.com</a>
+      <p>I uploaded this to git hub as a test. All credits to Shawn for a GREAT tutorial.</p>  
+    </div>  
   </div>
+
   <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </body>

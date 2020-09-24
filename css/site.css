@@ -14,8 +14,6 @@ body {
   font-family: Segoe UI, Arial, Helvetica, sans-serif;
   font-size: 14px;
   background-color: darkgreen;
-  /* Changed the color to test git and vsts */
-  /* background-color: #badcaf;  ---- AND changed it back*/
 }
 
 a {
@@ -45,13 +43,6 @@ html, body {
   width: 600px;
   display: inline-block;
   vertical-align: top;
-}
-
-.title {
-  background-color: darkgreen;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .simple-form {
@@ -100,12 +91,6 @@ header nav li {
   font-size: 12px;
 }
 
-/* twitter-my {
-  color: white;
-  background-color: #2daae1;
-  border-radius: 25px;
-} */
-
 .sean {
   background-color: aliceblue;
   border-radius: 5px;
@@ -120,9 +105,10 @@ header nav li {
   color: aliceblue;
 }*/
 
-
-
-
+hr {
+  width: 75%;
+  color: green;
+}
 
 
 

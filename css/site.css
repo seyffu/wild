@@ -106,6 +106,21 @@ header nav li {
   border-radius: 25px;
 } */
 
+.sean {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 3px solid darkgreen;
+  color: forestgreen;
+  font-weight: lighter;
+  margin-top: 25px;
+  padding-left: 15px;
+}
+
+/*.sean > a:link, a:visited {
+  color: aliceblue;
+}*/
+
+
 
 
 
